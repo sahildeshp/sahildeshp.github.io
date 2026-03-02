@@ -19,26 +19,136 @@ My work spans the full controls stack — from algorithm design in MATLAB/Simuli
 
 ## Experience
 
-| | |
-|---|---|
-| **Siemens Energy** | HVDC Control & Protection Engineer &nbsp;·&nbsp; Feb 2025 – Present |
-| **SLB Ltd.** | Control and Automation Engineer &nbsp;·&nbsp; Feb 2023 – Dec 2024 |
-| **Rivian Automotive** | Automation & Control Development Intern &nbsp;·&nbsp; May – Aug 2022 |
-| **Honeywell International** | Electrical Controls Intern &nbsp;·&nbsp; Jan – Apr 2022 |
-| **NC State – ADAC Lab** | Graduate Research Assistant &nbsp;·&nbsp; Feb – Dec 2021 |
+<div class="exp-timeline">
+
+  <div class="exp-item">
+    <div class="exp-dot"></div>
+    <div class="exp-body">
+      <div class="exp-header">
+        <strong class="exp-company">Siemens Energy</strong>
+        <span class="exp-date">Feb 2025 – Present</span>
+      </div>
+      <div class="exp-role">HVDC Control & Protection Engineer</div>
+    </div>
+  </div>
+
+  <div class="exp-item">
+    <div class="exp-dot"></div>
+    <div class="exp-body">
+      <div class="exp-header">
+        <strong class="exp-company">SLB Ltd.</strong>
+        <span class="exp-date">Feb 2023 – Dec 2024</span>
+      </div>
+      <div class="exp-role">Control and Automation Engineer</div>
+    </div>
+  </div>
+
+  <div class="exp-item">
+    <div class="exp-dot"></div>
+    <div class="exp-body">
+      <div class="exp-header">
+        <strong class="exp-company">Rivian Automotive</strong>
+        <span class="exp-date">May – Aug 2022</span>
+      </div>
+      <div class="exp-role">Automation & Control Development Intern</div>
+    </div>
+  </div>
+
+  <div class="exp-item">
+    <div class="exp-dot"></div>
+    <div class="exp-body">
+      <div class="exp-header">
+        <strong class="exp-company">Honeywell International</strong>
+        <span class="exp-date">Jan – Apr 2022</span>
+      </div>
+      <div class="exp-role">Electrical Controls Intern</div>
+    </div>
+  </div>
+
+  <div class="exp-item">
+    <div class="exp-dot"></div>
+    <div class="exp-body">
+      <div class="exp-header">
+        <strong class="exp-company">NC State – ADAC Lab</strong>
+        <span class="exp-date">Feb – Dec 2021</span>
+      </div>
+      <div class="exp-role">Graduate Research Assistant</div>
+    </div>
+  </div>
+
+</div>
 
 ---
 
 ## Skills
 
-| Domain | Tools & Technologies |
-|---|---|
-| Control Systems | MATLAB, Simulink, Stateflow, PID, Lyapunov methods, SIL/HIL |
-| PLC / Automation | Beckhoff TwinCAT, Rockwell Studio 5000, Omron CX Programmer, LabVIEW, EPLAN EEC |
-| SCADA | Wonderware InTouch, Ignition |
-| Industrial Networks | Ethernet/IP, Profibus, Profinet, MQTT, OPC UA |
-| Programming | Python, Structured Text, Ladder Logic, MATLAB, PowerShell, VBA, SQL |
-| DevOps | Git, Azure DevOps, GitLab, CI/CD |
+<div class="skills-grid">
+
+  <div class="skill-group">
+    <span class="skill-group__label">Control Systems</span>
+    <div class="skill-group__tags">
+      <span class="skill-tag">MATLAB</span>
+      <span class="skill-tag">Simulink</span>
+      <span class="skill-tag">Stateflow</span>
+      <span class="skill-tag">PID</span>
+      <span class="skill-tag">Lyapunov methods</span>
+      <span class="skill-tag">SIL/HIL</span>
+    </div>
+  </div>
+
+  <div class="skill-group">
+    <span class="skill-group__label">PLC / Automation</span>
+    <div class="skill-group__tags">
+      <span class="skill-tag">Beckhoff TwinCAT</span>
+      <span class="skill-tag">Rockwell Studio 5000</span>
+      <span class="skill-tag">Omron CX Programmer</span>
+      <span class="skill-tag">LabVIEW</span>
+      <span class="skill-tag">EPLAN EEC</span>
+    </div>
+  </div>
+
+  <div class="skill-group">
+    <span class="skill-group__label">SCADA</span>
+    <div class="skill-group__tags">
+      <span class="skill-tag">Wonderware InTouch</span>
+      <span class="skill-tag">Ignition</span>
+    </div>
+  </div>
+
+  <div class="skill-group">
+    <span class="skill-group__label">Industrial Networks</span>
+    <div class="skill-group__tags">
+      <span class="skill-tag">Ethernet/IP</span>
+      <span class="skill-tag">Profibus</span>
+      <span class="skill-tag">Profinet</span>
+      <span class="skill-tag">MQTT</span>
+      <span class="skill-tag">OPC UA</span>
+    </div>
+  </div>
+
+  <div class="skill-group">
+    <span class="skill-group__label">Programming</span>
+    <div class="skill-group__tags">
+      <span class="skill-tag">Python</span>
+      <span class="skill-tag">Structured Text</span>
+      <span class="skill-tag">Ladder Logic</span>
+      <span class="skill-tag">PowerShell</span>
+      <span class="skill-tag">VBA</span>
+      <span class="skill-tag">SQL</span>
+    </div>
+  </div>
+
+  <div class="skill-group">
+    <span class="skill-group__label">DevOps</span>
+    <div class="skill-group__tags">
+      <span class="skill-tag">Git</span>
+      <span class="skill-tag">Azure DevOps</span>
+      <span class="skill-tag">GitLab</span>
+      <span class="skill-tag">CI/CD</span>
+    </div>
+  </div>
+
+</div>
 
 ---
 

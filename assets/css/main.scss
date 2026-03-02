@@ -13,7 +13,6 @@
 
     "themes",
     "theme/{{ site.site_theme | default: 'default' | append: '_light' }}",
-    "theme/{{ site.site_theme | default: 'default' | append: '_dark' }}",
 
     "include/mixins",
     "vendor/susy/susy",
@@ -157,4 +156,109 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--global-base-color) !important;
   text-decoration: none !important;
   padding-left: 4px;
+}
+
+/* Experience timeline */
+.exp-timeline {
+  position: relative;
+  padding-left: 1.5rem;
+  border-left: 2px solid var(--global-border-color);
+  margin-bottom: 0.5rem;
+}
+
+.exp-item {
+  position: relative;
+  margin-bottom: 1.35rem;
+}
+
+.exp-item:last-child {
+  margin-bottom: 0;
+}
+
+.exp-dot {
+  position: absolute;
+  left: calc(-1.5rem - 6px);
+  top: 5px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--global-base-color);
+  box-shadow: 0 0 0 2px var(--global-bg-color), 0 0 0 3px var(--global-base-color);
+}
+
+.exp-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.exp-company {
+  font-weight: 600;
+  font-size: 0.95em;
+}
+
+.exp-date {
+  font-size: 0.82em;
+  color: var(--global-text-color-light);
+  white-space: nowrap;
+}
+
+.exp-role {
+  font-size: 0.875em;
+  color: var(--global-text-color-light);
+  margin-top: 0.15rem;
+}
+
+/* Skills pill tags */
+.skills-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+  margin-bottom: 0.5rem;
+}
+
+.skill-group {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+}
+
+.skill-group__label {
+  font-size: 0.72em;
+  font-weight: 600;
+  color: var(--global-text-color-light);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  min-width: 130px;
+  padding-top: 0.3em;
+  flex-shrink: 0;
+}
+
+.skill-group__tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+.skill-tag {
+  display: inline-block;
+  padding: 0.2em 0.7em;
+  background: var(--global-footer-bg-color);
+  border: 1px solid var(--global-border-color);
+  border-radius: 50px;
+  font-size: 0.8em;
+  color: var(--global-text-color);
+  line-height: 1.6;
+}
+
+@media (max-width: 480px) {
+  .skill-group {
+    flex-direction: column;
+    gap: 0.3rem;
+  }
+  .skill-group__label {
+    min-width: auto;
+  }
 }
