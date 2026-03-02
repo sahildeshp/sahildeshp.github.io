@@ -41,3 +41,22 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+
+/* Custom overrides */
+
+/* Tighten up sidebar avatar spacing since name is removed */
+.author__avatar {
+  margin-bottom: 0.5em;
+}
+
+/* Make sidebar bio slightly larger */
+.author__bio {
+  font-size: 0.85em;
+  line-height: 1.5;
+}
+
+/* Slightly bolder section headings on content pages */
+.page__content h2 {
+  border-bottom: 1px solid #f2f3f3;
+  padding-bottom: 0.25em;
+}
