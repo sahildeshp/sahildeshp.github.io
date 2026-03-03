@@ -26,7 +26,7 @@ A selection of my engineering and research projects spanning control systems, ro
     </div>
     <div class="project-card__body">
       <span class="project-card__date">Aug – Nov 2022</span>
-      <div class="project-card__title">Vision-Based Lane Detection and Autonomous Navigation — NVIDIA JetBot</div>
+      <div class="project-card__title">Vision-Based Lane Detection and Autonomous Navigation, NVIDIA JetBot</div>
       <p class="project-card__desc">Self-driving strategy using a ResNet-18 CNN for lane following. Designed a digital PID controller with pidTuner and compared stability and robustness across controller configurations.</p>
       <a href="https://github.com/sahildeshp/Adaptive-Cruise-Control-and-Vision-based-Lane-Detection-of-NVIDIA-JetBot" class="project-card__link" target="_blank">GitHub →</a>
     </div>
@@ -51,7 +51,7 @@ A selection of my engineering and research projects spanning control systems, ro
     <div class="project-card__body">
       <span class="project-card__date">Jan – May 2021</span>
       <div class="project-card__title">Terrain Classification from Time Series Data</div>
-      <p class="project-card__desc">Classified terrain types from IMU sensor data (accelerometer + gyroscope) using Conv1D, LSTM, GRU, and dense layers in Keras — achieving 85% accuracy with the best RNN LSTM model.</p>
+      <p class="project-card__desc">Classified terrain types from IMU sensor data (accelerometer + gyroscope) using Conv1D, LSTM, GRU, and dense layers in Keras, achieving 85% accuracy with the best RNN LSTM model.</p>
       <a href="https://github.com/sahildeshp/Terrain_Classification_from_Time_Series_Data" class="project-card__link" target="_blank">GitHub →</a>
     </div>
   </div>
@@ -74,7 +74,7 @@ A selection of my engineering and research projects spanning control systems, ro
     </div>
     <div class="project-card__body">
       <div class="project-card__title">Backpropagation on MNIST from Scratch</div>
-      <p class="project-card__desc">Neural network trained via backpropagation from scratch using NumPy on the MNIST handwritten digit dataset — no deep learning frameworks used.</p>
+      <p class="project-card__desc">Neural network trained via backpropagation from scratch using NumPy on the MNIST handwritten digit dataset (no deep learning frameworks used).</p>
       <a href="https://github.com/sahildeshp/Numpy_Backprop" class="project-card__link" target="_blank">GitHub →</a>
     </div>
   </div>

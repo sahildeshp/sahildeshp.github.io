@@ -13,7 +13,7 @@ Previously at **SLB** (formerly Schlumberger), I led the integration of fast-loo
 
 I hold an **M.S. in Electrical Engineering** from North Carolina State University and a **B.E. in Instrumentation and Control Engineering** from Savitribai Phule Pune University.
 
-My work spans the full controls stack — from algorithm design in MATLAB/Simulink and SIL/HIL testing, to PLC programming in Structured Text, to SCADA integration and field commissioning.
+My work spans the full controls stack: from algorithm design in MATLAB/Simulink and SIL/HIL testing, to PLC programming in Structured Text, to SCADA integration and field commissioning.
 
 ---
 
