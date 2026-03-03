@@ -7,13 +7,15 @@ redirect_from:
   - /about.html
 ---
 
-I am an **HVDC Control & Protection Engineer** at [Siemens Energy](https://www.siemens-energy.com/), designing and validating control and protection systems for High Voltage Direct Current (HVDC) transmission — critical infrastructure enabling the global clean energy transition.
+I am an **HVDC Control & Protection Engineer** at [Siemens Energy](https://www.siemens-energy.com/), designing and validating control and protection systems for High Voltage Direct Current (HVDC) transmission.
 
-Previously at **SLB** (formerly Schlumberger), I led the integration of fast-loop drilling control applications into SLB's DrillSync Automated Controls Platform and designed, commissioned, and supported 10+ drilling automation systems in the field. I've also interned at **Rivian Automotive** and **Honeywell International**.
+Previously at **SLB** (formerly Schlumberger), I led the integration of fast-loop drilling control applications into SLB's DrillSync Automated Controls Platform and designed, commissioned, and supported 10+ drilling automation systems in the field. 
+
+I have also interned at **Rivian Automotive** and **Honeywell International**.
 
 I hold an **M.S. in Electrical Engineering** from North Carolina State University and a **B.E. in Instrumentation and Control Engineering** from Savitribai Phule Pune University.
 
-My work spans the full controls stack: from algorithm design in MATLAB/Simulink and SIL/HIL testing, to PLC programming in Structured Text, to SCADA integration and field commissioning.
+My work spans the full controls stack: from algorithm design in MATLAB/Simulink and SIL/HIL testing, to PLC programming, to SCADA integration and field commissioning.
 
 ---
 
