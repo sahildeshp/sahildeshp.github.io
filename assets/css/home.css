@@ -225,8 +225,7 @@ a {
   background: var(--tile);
 }
 
-.intro    { grid-column: span 9; }
-.photo    { grid-column: span 3; }
+.intro    { grid-column: 1 / -1; }
 .role     { grid-column: span 5; }
 .hv       { grid-column: span 7; }
 .about    { grid-column: span 5; }
@@ -252,15 +251,38 @@ a {
 .intro {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  gap: 36px;
-  min-height: 380px;
+  gap: 30px;
   padding: 42px;
 }
 
+.who {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.who img {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 0 0 4px var(--page);
+  transition: transform 0.5s cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+
+.who span {
+  display: grid;
+  color: var(--muted);
+}
+
+.who strong {
+  font: 650 1.2rem/1.3 var(--display);
+  color: var(--ink);
+}
+
 .intro h1 {
-  max-width: 15em;
-  font: 700 clamp(2.2rem, 1.1rem + 3.5vw, 3.6rem)/1.03 var(--display);
+  max-width: 17em;
+  font: 700 clamp(2.2rem, 1rem + 4vw, 4rem)/1.02 var(--display);
   letter-spacing: -0.03em;
   color: var(--ink);
 }
@@ -270,54 +292,16 @@ a {
   color: var(--blue);
 }
 
-.avatar {
-  display: none;
-  width: 64px;
-  height: 64px;
-  border-radius: 50%;
-  object-fit: cover;
-  object-position: center 15%;
-}
-
 .actions {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   gap: 10px 12px;
+  margin-top: 6px;
 }
 
 .actions .text-link {
   margin-left: 12px;
-}
-
-/* ---------- Photo ---------- */
-
-.photo {
-  padding: 0;
-  min-height: 300px;
-  background: #cfd5dd;
-}
-
-.photo img {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center 22%;
-  transition: transform 0.6s cubic-bezier(0.2, 0.7, 0.2, 1);
-}
-
-.photo figcaption {
-  position: absolute;
-  left: 14px;
-  bottom: 14px;
-  padding: 7px 14px;
-  border-radius: 999px;
-  background: rgba(255, 255, 255, 0.92);
-  font-size: 0.85rem;
-  font-weight: 600;
-  color: var(--ink);
 }
 
 /* ---------- Current role ---------- */
@@ -688,22 +672,33 @@ a {
 }
 
 .contact__big {
-  max-width: 13em;
-  font: 650 clamp(2rem, 1.2rem + 2.6vw, 3.1rem)/1.04 var(--display);
+  font: 650 clamp(1.7rem, 1rem + 2.6vw, 3.1rem)/1.08 var(--display);
   letter-spacing: -0.03em;
   color: #fff;
 }
 
-.contact .btn {
+.contact__big a {
+  display: block;
+  width: fit-content;
   max-width: 100%;
+  color: #a9b8ff;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-decoration-color: #a9b8ff66;
+  text-underline-offset: 0.14em;
   overflow-wrap: anywhere;
+  transition: color 0.15s, text-decoration-color 0.15s;
+}
+
+.contact__big a:hover {
+  color: #fff;
+  text-decoration-color: #fff;
 }
 
 .contact__links {
   display: flex;
   flex-wrap: wrap;
   gap: 0 22px;
-  margin-top: 14px;
 }
 
 .contact__links a {
@@ -774,9 +769,12 @@ a {
     box-shadow: 0 22px 34px -24px rgba(16, 21, 28, 0.45);
   }
 
-  .photo:hover img,
   .proj:hover .proj__img img {
     transform: scale(1.04);
+  }
+
+  .intro:hover .who img {
+    transform: scale(1.08) rotate(-4deg);
   }
 
   .proj:hover .proj__go {
@@ -806,10 +804,8 @@ a {
     grid-template-columns: repeat(6, minmax(0, 1fr));
   }
 
-  .intro { grid-column: span 6; min-height: 0; }
-  .photo { grid-column: span 2; }
-  .role  { grid-column: span 4; }
-
+  .intro,
+  .role,
   .hv,
   .about,
   .exp,
@@ -887,17 +883,13 @@ a {
   }
 
   .intro {
-    gap: 26px;
+    gap: 24px;
     padding: 26px 24px;
   }
 
-  .avatar {
-    display: block;
-    margin-bottom: -6px;
-  }
-
-  .photo {
-    display: none;
+  .who img {
+    width: 60px;
+    height: 60px;
   }
 
   .actions .text-link {
@@ -939,6 +931,12 @@ a {
   .contact {
     grid-template-columns: minmax(0, 1fr);
     padding: 28px 24px;
+  }
+
+  .contact__big a {
+    display: flex;
+    align-items: center;
+    min-height: 44px;
   }
 
   .foot {
