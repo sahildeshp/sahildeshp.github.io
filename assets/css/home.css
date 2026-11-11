@@ -279,7 +279,6 @@ a {
   border: 6px solid #fff;
   border-radius: 22px;
   box-shadow: 0 0 0 1px var(--line), 0 22px 40px -20px rgba(16, 21, 28, 0.5);
-  transform: rotate(3deg);
   transition: transform 0.5s cubic-bezier(0.2, 0.7, 0.2, 1);
 }
 
@@ -781,7 +780,7 @@ a {
   }
 
   .intro:hover .portrait {
-    transform: rotate(0deg) scale(1.03);
+    transform: scale(1.03);
   }
 
   .proj:hover .proj__go {
@@ -903,7 +902,6 @@ a {
     width: 104px;
     border-width: 4px;
     border-radius: 16px;
-    transform: rotate(-3deg);
   }
 
   .actions__links {
