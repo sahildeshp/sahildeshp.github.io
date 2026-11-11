@@ -190,10 +190,10 @@ summary:focus-visible {
   border-bottom-color: var(--global-base-color);
 }
 
-/* Links wrap on narrow screens and fit on wide ones, so the collapse
-   button is not needed and is hidden at every width. */
 .greedy-nav button {
-  display: none;
+  height: 44px;
+  min-width: 44px;
+  background: transparent;
 }
 
 /* ---------- Profile (sidebar on desktop, compact header below 1024px) ---------- */
@@ -569,8 +569,8 @@ summary:focus-visible {
 
 /* ---------- Responsive ---------- */
 
-/* Below 1024px the masthead sits in the flow (sticky) so it can grow
-   when the links wrap, instead of covering the content under a fixed bar. */
+/* Below 1024px the masthead sits in the flow (sticky) so it can never
+   cover the content beneath it if its height changes. */
 @media (max-width: 1023px) {
   body {
     padding-top: 0;
@@ -579,35 +579,6 @@ summary:focus-visible {
   .masthead {
     position: sticky;
     top: 0;
-  }
-}
-
-/* Nav links wrap instead of overflowing, so the nav works without the
-   collapse script. */
-@media (max-width: 640px) {
-  .greedy-nav {
-    min-width: 0;
-  }
-
-  .greedy-nav .visible-links {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    column-gap: var(--space-5);
-  }
-
-  .greedy-nav .visible-links li {
-    display: block;
-  }
-
-  .greedy-nav a {
-    margin: 0;
-  }
-}
-
-@media (max-width: 420px) {
-  .greedy-nav .visible-links li:first-child {
-    flex: 1 0 100%;
   }
 }
 
