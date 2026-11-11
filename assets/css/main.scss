@@ -569,19 +569,6 @@ summary:focus-visible {
 
 /* ---------- Responsive ---------- */
 
-/* Below 1024px the masthead sits in the flow (sticky) so it can never
-   cover the content beneath it if its height changes. */
-@media (max-width: 1023px) {
-  body {
-    padding-top: 0;
-  }
-
-  .masthead {
-    position: sticky;
-    top: 0;
-  }
-}
-
 @media (max-width: 767px) {
   #main {
     margin-top: var(--space-4);
